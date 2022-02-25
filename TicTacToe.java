@@ -32,6 +32,7 @@ public class TicTacToe extends JPanel
         {
             buttons[i].setText("");
         }
+        alternate = 0;
     }
 
     // when a button is clicked, it generates an ActionEvent. Thus, each button needs an ActionListener. When it is clicked, it goes to this listener class that I have created and goes to the actionPerformed method. There (and in this class), we decide what we want to do.
